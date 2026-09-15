@@ -1,0 +1,6 @@
+aws_region         = "us-east-1"
+project_name       = "skyward-capstone"
+allowed_ssh_cidr   = "203.0.113.10/32"
+key_name           = "replace-with-your-ec2-key-pair"
+notification_email = "you@example.com"
+bucket_name        = "replace-with-a-globally-unique-bucket-name"
