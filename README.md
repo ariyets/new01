@@ -74,3 +74,7 @@ sudo systemctl reload nginx
 - `site/` — Static HTML, CSS, and JavaScript served by Nginx.
 - `scripts/` — Local helper for versioned S3 backup uploads.
 - `docs/` — Architecture diagram and submission guidance.
+
+## Google Classroom submission
+
+Create a clean upload archive with `./scripts/package-submission.sh`, then upload the generated `skyward-capstone-project.zip` file. The package omits local Terraform state and secrets. See the [Google Classroom submission guide](docs/google-classroom-submission.md) for the included files and upload checklist.
