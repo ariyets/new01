@@ -1,0 +1,13 @@
+#!/bin/bash
+set -euxo pipefail
+dnf install -y nginx
+cat > /usr/share/nginx/html/index.html <<'HTML'
+${page}
+HTML
+cat > /usr/share/nginx/html/styles.css <<'CSS'
+${css}
+CSS
+cat > /usr/share/nginx/html/app.js <<'JS'
+${js}
+JS
+systemctl enable --now nginx
